@@ -113,3 +113,12 @@ console.log(rows);
 //     console.log(error);
     
 // }
+
+// try {
+//     const [rows] = await mysql_db.execute(`delete from usersInject where email=?`,["bob@gmail.com"]);
+//     console.log("All users : ",rows);
+    
+// } catch (error) {
+//     console.log(error);
+    
+// }
